@@ -2,22 +2,23 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  随笔: /tags/note/
+  关于我: /about/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/leeminghao"
+  #weibo: ""
+  #rss: "#"
+  zhihu: "https://www.zhihu.com/people/li-ming-hao-8-33"
   #qq: "#"
-  #weixin: "#"
+  #weixin: "Lee-Mi-H"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  #mail: "novelinuxer@gmail.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -43,13 +44,13 @@ open_in_new: false
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay:
 # 微信二维码图片地址
-weixin: 
+weixin:
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -65,10 +66,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /img/logo.jpeg
 
 #你的头像url
-avatar:
+avatar: /img/liminghao.jpeg
 
 #是否开启分享
 share_jia: true
@@ -115,16 +116,11 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
-  friends: '友链'
-  aboutme: '关于我'
+  innerArchive: false #'所有文章'
+  friends: false #'友链'
+  aboutme: false #'关于我'
 
 friends:
   友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 我是表弟<br><br>我用这个站点和大家分享平时平时的学习笔记和工作中遇到的问题<br>谢谢关注
